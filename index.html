@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion Sort </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        
+        .block {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #4caf50;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            position: relative;
+        }
+        
+        #array-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            margin-top: 37px;
+        }
+        
+        .bar {
+            width: 30px;
+            background-color: teal;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        
+        .block {
+            width: 60px;
+            height: 60px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            line-height: 60px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .block2 {
+            width: 60px;
+            height: 60px;
+            background-color: #91c393;
+            color: white;
+            text-align: center;
+            line-height: 60px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .block1 {
+            width: 60px;
+            height: 60px;
+            background-color: #91c393;
+            color: white;
+            text-align: center;
+            line-height: 60px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        input {
+            width: 200px;
+            height: 38px;
+            border: 1px solid;
+            outline: none;
+            color: #4CAF50 !important;
+            text-align: center;
+            border-radius: 8px;
+        }
+        
+        button {
+            width: 70px;
+            height: 38px;
+            background-color: #4CAF50;
+            border: 1px solid;
+            outline: none;
+            color: white !important;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        h1 {
+            color: #02a008;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Insertion Sort </h1>
+    <!-- <div>
+        <input type="text" id="array-input" placeholder="Enter numbers (e.g., 9,1,3,5,2)" oninput="checkInput()">
+        <button onclick="startSorting()" disabled>Sort</button>
+    </div> -->
+    <div>
+        <input type="text" id="array-input" placeholder="Enter numbers (e.g., 9,1,3,5,2)">
+        <button id="sort-button" onclick="startSorting()" disabled>Sort</button>
+    </div>
+    <div id="array-container"></div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+<!-- //////////////////////////////////////// -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion Sort Animation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            gap: 10px;
+        }
+        
+        .block {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #4caf50;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            position: relative;
+        }
+        
+        .block.moving {
+            background-color: #f39c12;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Insertion Sort Animation</h1>
+    <div class="container" id="container"></div>
+    <button onclick="startSort()">Start Sorting</button>
+    <script src="dist/main.js"></script>
+</body>
+
+</html> -->
